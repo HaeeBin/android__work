@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuAdd"
+        android:onClick="onMenuItemClick"
+        android:title="새로운 영화 추가" />
+    <item
+        android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:onClick="onMenuItemClick"
+        android:title="영화 검색"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/menuIntroduce"
+        android:onClick="onMenuItemClick"
+        android:title="개발자 소개" />
+    <item
+        android:id="@+id/menuEnd"
+        android:onClick="onMenuItemClick"
+        android:title="앱 종료" />
+</menu>
